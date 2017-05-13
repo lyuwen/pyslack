@@ -60,10 +60,7 @@ class pySlack(object):
         'filetype': 'auto',
         }
     payload.update(kwargs)
-    ## get channel id
-
-    ##
-    if payload['channels'][0]=='@': payload['channels']=member_channels[payload['channels'][1:]]
+    
     url='https://slack.com/api/files.upload'
     #print payload.keys().count('file')+payload.keys().count('content')
     if payload.keys().count('file')+payload.keys().count('content')!=1:
