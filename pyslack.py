@@ -2,7 +2,6 @@
 import sys, os, json
 import requests
 import configparser
-from inputs import inputs
 CONFIG=os.path.join(os.environ['HOME'],'.pyslackrc')
 '''
 Command line usage:
@@ -128,6 +127,7 @@ class pySlack(object):
     print "Done"
 
 if __name__=="__main__":
+  from inputs import inputs
   av=inputs("""
       text=str channel=str username=str icon_emoji=str filetype='auto' initial_comment=str title=str file=str
       I=str y=str
