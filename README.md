@@ -10,6 +10,7 @@ And install the python package.
 
 
 ``` bash
+python -m pip install -r requirements.txt
 python setup.py build && python setup.py install
 
 ```
