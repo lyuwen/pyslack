@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
 import os
 import sys
-import json
 import slack
-import requests
 import textwrap
 import configparser
 import argparse
