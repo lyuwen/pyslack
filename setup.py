@@ -3,7 +3,7 @@ from setuptools import setup
 
 if __name__ == '__main__':
   name = 'pyslack'
-  version = '0.1'
+  version = '0.0.1'
   setup(
       name=name,
       version=version,
