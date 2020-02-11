@@ -27,12 +27,12 @@ pip install .
 * Send a text message.
 
   ``` bash
-  pyslack text --channel #random  --text "This is a test message."
+  pyslack text --channel '#random' --text "This is a test message."
   ```
 
 * Upload a file.
 
   ``` bash
-  pyslack file --channel #random  --file /path/to/file --title FileTitle --filetype <file type> \
+  pyslack file --channel '#random' --file /path/to/file --title FileTitle --filetype <file type> \
     --initial-comment "This is the comment"
   ```
